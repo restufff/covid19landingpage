@@ -2,8 +2,21 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Red Hat Display', sans-serif;
+} 
+
+:root {
+  --heroSectionColor: linear-gradient(0deg, rgba(255,252,252,1) 0%, rgba(255,248,248,1) 60%, rgba(255,249,249,1) 100%);
+  --primaryColor: #FA5652;
+  --secondaryColor: #035755;
+  --actionColor: #FB4C47;
+  --paragraphColor: #4B4F51;
+  --footernavColor: #00402E;
+
 }
 
 a {
@@ -13,4 +26,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: auto;
+  padding: 0px 23px;
 }

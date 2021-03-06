@@ -1,5 +1,4 @@
-import HomeComponent from './Home/components/Home'
-
+import HomeComponent from './components/Home'
 
 export default function Home() {
   return ( <HomeComponent />)
