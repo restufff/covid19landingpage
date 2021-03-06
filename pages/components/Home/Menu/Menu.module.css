@@ -5,5 +5,36 @@
 }
 
 .pathList {
-    
+    margin-left: 604px;
+}
+
+.pathList > a {
+    margin-right: 40px;
+    color: var(--secondaryColor);
+}
+
+.pathList a:hover:before {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    margin-left: 30px;
+    background: var(--primaryColor);
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+
+.contactButton {
+    padding: 16px 45px;
+    border: solid 2px var(--actionColor);
+    border-radius: 46px;
+    color: var(--primaryColor);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contactButton:hover{
+    background-color: var(--actionColor);
+    color: #fff;
+    transition: 0.2s;
 }
