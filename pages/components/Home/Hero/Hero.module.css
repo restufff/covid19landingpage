@@ -1,0 +1,52 @@
+.heroWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+    padding-bottom: 105px;
+}
+
+.descriptionWrapper h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+.descriptionWrapper h1 {
+    margin-bottom: 29px;
+    line-height: 72px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--secondaryColor);
+}
+
+.descriptionWrapper p {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 400;
+    color: var(--paragraphColor);
+}
+
+.actionButton {
+    display: inline-block;
+    background-color: var(--actionColor);
+    padding: 18px 48px;
+    border-radius: 65px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 35px;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.virusWrapper {
+    position: absolute;
+    top: 20px;
+    left: -100px;
+}

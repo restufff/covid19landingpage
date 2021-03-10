@@ -1,0 +1,49 @@
+.aboutWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: -120px;
+}
+
+.imageWrapper {
+    margin-left: -250px;
+    margin-right: 60px;
+}
+
+.descriptionAbout h2 {
+    color: var(--primaryColor);
+    font-weight: 700;
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.descriptionAbout h1 {
+    color: var(--secondaryColor);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.descriptionAbout p {
+    color: var(--paragraphColor);
+    line-height: 43px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+.coronaWrapper {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    margin-right: -175px;
+    margin-top: 350px;
+}
+
+.actionButton {
+    padding: 20px 50px;
+    background-color: var(--creamColor);
+    border-radius: 65px;
+    color: var(--primaryColor);
+    font-weight: 600;
+    font-size: 20px;
+}

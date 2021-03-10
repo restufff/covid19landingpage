@@ -11,6 +11,7 @@
 .pathList > a {
     margin-right: 40px;
     color: var(--secondaryColor);
+    font-weight: 500;
 }
 
 .pathList a:hover:before {
