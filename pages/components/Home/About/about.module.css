@@ -35,7 +35,7 @@
     overflow: hidden;
     top: 0;
     right: 0;
-    margin-right: -175px;
+    margin-right: -196px;
     margin-top: 350px;
 }
 
@@ -46,4 +46,5 @@
     color: var(--primaryColor);
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }

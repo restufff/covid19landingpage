@@ -27,8 +27,12 @@ a {
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 .wrapper {
   width: 1920px;
-  margin: auto;
+  margin-left: -17px;
   padding: 0px 239px;
 }

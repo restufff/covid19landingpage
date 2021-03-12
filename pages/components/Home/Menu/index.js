@@ -3,16 +3,20 @@ import Logo from '@public/Logo.svg';
 
 const menuList = [
     {
+        label: 'Overview',
+        url: '/',
+    },
+    {
         label: 'Contagion',
-        url: '/contagion',
+        url: '/',
     },
     {
         label: 'Symptoms',
-        url: '/symptoms',
+        url: '/',
     },
     {
         label: 'Prevention',
-        url: '/prevention',
+        url: '/',
     }
 ]
 
@@ -23,7 +27,6 @@ const Menu = () => {
                 <img src = {Logo} alt = "Logo" />
             </div>
             <div className = {styles.pathList}>
-                <a href className = {styles.active}>Overview</a>
                 {menuList.map((obj) => <a href = {obj.url}>{obj.label}</a>)}
             </div>
             <div className = {styles.actionContainer}>

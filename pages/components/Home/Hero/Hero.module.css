@@ -37,12 +37,13 @@
     font-weight: 700;
     color: #fff;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .imageWrapper {
     position: relative;
     width: 100px;
-    margin-left: 100px;
+    margin-left: 131px;
 }
 
 .virusWrapper {

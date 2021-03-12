@@ -1,0 +1,74 @@
+.contaigonContainer {
+    text-align: center;
+    margin-bottom: 148px;
+}
+
+.contaigonContainer > h2 {
+    font-size: 29px;
+    margin-bottom: 15px;
+    color: var(--primaryColor);
+}
+
+.contaigonContainer h1 {
+    font-size: 50px;
+    margin-bottom: 31px;
+    color: var(--secondaryColor);
+}
+
+.contaigonContainer > p {
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 400;
+    color: var(--paragraphColor);
+    margin-bottom: 111px;
+}
+
+.cardContaigonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 31px;
+    
+}
+
+.typeContainer {
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0px 15px 90px -50px rgba(0,0,0,0.7);
+    
+}
+
+.typeContainer:hover{
+    border-bottom: solid var(--primaryColor);
+}
+
+.dataDesc {
+    padding: 65px 60px;
+}
+
+.dataHead {
+    margin-top: 54px;
+}
+
+.dataHead > h2 {
+    font-size: 36px;
+    color: var(--secondaryColor);
+    margin-bottom: 13px;
+}
+
+.dataHead > p {
+    font-size: 15px;
+    color: var(--paragraphColor);
+    line-height: 33px;
+}
+
+.relativeContainer {
+    position: relative;
+    margin-left: -220px;
+}
+
+.coronaImg {
+    position: absolute;
+    left: 0;
+    margin-top: 290px;
+    margin-left: 85px;
+}
