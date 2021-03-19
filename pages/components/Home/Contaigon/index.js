@@ -35,18 +35,19 @@ const Contaigon = () => {
         <br />
         Some Cause Disease. A newly Identified Type
       </p>
+        <div><img className={styles.coronaImg} src={coronaIcon} /></div>
       <div className={styles.relativeContainer}>
-        <img className={styles.coronaImg} src={coronaIcon} />
       </div>
       <div className={styles.cardContaigonContainer}>
-        {contaigonList.map((obj) => (
-          <div className={styles.typeContainer}>
+        {contaigonList.map((obj, index) => (
+          <div key={index}className={styles.typeContainer}>
             <div className={styles.dataDesc}>
               <img src={obj.contaigonImg} />
               <div className={styles.dataHead}>
                 <h2>{obj.contaigonType}</h2>
                 <p>{obj.contaigonDesc}</p>
               </div>
+              <div className={styles.borderBottom}></div>
             </div>
           </div>
         ))}

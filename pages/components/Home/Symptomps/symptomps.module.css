@@ -1,0 +1,27 @@
+.symptompsWrapper {
+    text-align: center;
+}
+
+.symptompsWrapper h2 {
+    margin-bottom: 15px;
+    font-size: 29px;
+    color: var(--primaryColor);
+}
+
+.symptompsWrapper h1 {
+    margin-bottom: 31px;
+    font-size: 50px;
+    color: var(--secondaryColor);
+}
+
+.symptompsWrapper p {
+    line-height: 38px;
+    color: var(--paragraphColor);
+    font-weight: 400;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 117px;
+}

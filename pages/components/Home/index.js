@@ -3,6 +3,8 @@ import Menu from "./Menu";
 import Hero from "./Hero";
 import About from "./About";
 import Contaigon from "./Contaigon";
+import Symptomps from "./Symptomps"
+import Prevention from "./Prevention"
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <div className="wrapper">
           <About />
           <Contaigon />
+          <Symptomps />
+          <Prevention />
         </div>
       </div>
     </div>
