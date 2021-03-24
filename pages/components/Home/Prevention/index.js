@@ -23,7 +23,7 @@ const preventionSteps = [
   },
   {
     number: "03",
-    heading: "use Nose - Rag",
+    heading: "Use Nose - Rag",
     paragraph:
       'Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively',
     imamge: useTissue,
@@ -48,6 +48,16 @@ function Prevention() {
         <br />
         disease. A newly identified type has caused
       </p>
+      <div className={styles.relativeContainer}>
+        <div className={styles.icon1}>
+        <img src={icon1}/>
+        </div>
+      </div>
+      <div className={styles.relativeContainer2}>
+        <div className={styles.icon2}>
+          <img src={icon2}/>
+        </div>
+      </div>
 
       {preventionSteps.map((obj, index) => (
         <div key={index} className={styles.preventionContainer}>
