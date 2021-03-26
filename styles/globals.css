@@ -14,6 +14,7 @@ h1, h2 {
   --paragraphColor: #4B4F51;
   --footernavColor: #00402E;
   --creamColor: #fee6e5;
+  --footerSection: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
 }
 
 a {

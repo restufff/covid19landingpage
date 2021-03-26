@@ -3,8 +3,9 @@ import Menu from "./Menu";
 import Hero from "./Hero";
 import About from "./About";
 import Contaigon from "./Contaigon";
-import Symptomps from "./Symptomps"
-import Prevention from "./Prevention"
+import Symptomps from "./Symptomps";
+import Prevention from "./Prevention";
+import Map from "./Map";
 
 const Home = () => {
   return (
@@ -22,6 +23,11 @@ const Home = () => {
           <Symptomps />
           <Prevention />
         </div>
+      </div>
+      <div className={styles.footerContainer}>
+        <div className="wrapper">
+        <Map />
+      </div>
       </div>
     </div>
   );

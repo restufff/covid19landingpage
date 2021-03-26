@@ -39,8 +39,12 @@
     margin-left: 100px;
 }
 
+.preventionContainer:nth-child(odd) .preventionDesc p {
+    padding-right: 150px;
+}
+
 .preventionContainer:nth-child(odd) .preventionNumber {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 700px;
     position: absolute;
 }
