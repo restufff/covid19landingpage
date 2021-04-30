@@ -14,6 +14,7 @@ import upMark from "@public/up_indicat.png";
 import downMark from "@public/down_indicat.png";
 import zoomIn from "@public/plus.png";
 import zoomOut from "@public/minus.png";
+import gap from "@public/gapNav.png"
 import search from "@public/search.png";
 
 const liveReports = [
@@ -60,22 +61,67 @@ const Footer = () => {
     <div className={styles.mapWrapper}>
       <div className={styles.mapReport}>
         <img src={map} />
+      <div className={styles.searchWrapperAbsolute}>
+        <div className={styles.searchWrapper}>
+          <img src={search}/>
+        </div>
       </div>
-      {liveReports.map((obj, index) => (
-        <div key={index} className={styles.mapListContainer}>
-          <div className={styles.mapListContent}>
-            <div className={styles.mapListHeader}>
-              <h3>
-                Live Reports
-              </h3>
-              <div className={styles.mapListNavigation}>
-                <img src={previousPage}/>
-                <img src={nextPage}/>
-              </div>
+      <div className={styles.relativeMapNav}>
+        <div className={styles.mapNavWrapper}>
+          <div>
+          <img src={zoomIn}/>
+          </div>
+          <div>
+          <img src={gap}/>
+          </div>
+          <div>
+          <img src={zoomOut}/>
+          </div>
+          <div>
+          <img src={gap}/>
+          </div>
+          <div className={styles.navMark}>
+            <div>
+            <img src={upMark}/>
+            </div>
+            <div>
+            <img src={downMark}/>
             </div>
           </div>
         </div>
+      </div>
+      </div>
+      <div className={styles.containerCountryReports}>
+        <div className={styles.headingCountryReports}>
+          <div>
+          <h3>
+            Live Reports
+          </h3>
+          </div>
+          <div className={styles.containerPaging}>
+            <div className={styles.wrappingPaging}>
+            <img className={styles.left} src={previousPage}/>
+            <img className={styles.right} src={nextPage}/>
+            </div>
+          </div>
+        </div>
+        {liveReports.map((obj, index) => (
+        <div key={index} className={styles.liveReportsContainer}>
+          <div className={styles.liveReportsContent}>
+            <img className={styles.countryImg} src={obj.flag}/>
+            <div className={styles.countryName}>
+            <h4>
+              {obj.coutry}
+            </h4>
+            </div>
+            <div className={styles.numberCase}>
+              {obj.number}
+            </div>
+            <img className={styles.indicatorImg} src={obj.indicator}/>
+          </div>
+        </div>
       ))}
+      </div>
     </div>
   );
 };

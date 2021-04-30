@@ -1,0 +1,123 @@
+.mapWrapper {
+    display: flex;
+    margin-top: 119px;
+    margin-bottom: 149px;
+    align-items: center;
+}
+
+.searchWrapperAbsolute {
+    position: relative;
+}
+
+.searchWrapper {
+    position: absolute;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+    right: 0;
+    margin-top: -605px;
+}
+
+.relativeMapNav {
+    position: relative;
+}
+
+.mapNavWrapper {
+    position: absolute;
+    padding: 22px 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -605px;
+    margin-left: 60px;
+}
+
+.navMark {
+    margin-top: 22px;
+}
+
+.containerCountryReports {
+    padding-left: 10px;
+    width: 550px;
+    height: 635px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+    margin-left: 40px;
+}
+
+.mapReport {
+    margin-left: -40px;
+}
+
+.headingCountryReports {
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.headingCountryReports h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #035755;
+}
+
+.wrappingPaging {
+    padding: 14px 14px;
+    
+}
+
+.containerPaging {
+    margin-left: 30px;
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    width: 83px;
+    height: 45px;
+    background-color: #fff;
+}
+
+.containerPaging .left{
+    padding-right: 15px;
+    border-right: solid 2.5px #DEE1ED;
+}
+
+.containerPaging .right {
+    padding-left: 15px;
+}
+
+.liveReportsContent {
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    padding: 35px 40px;
+}
+
+.countryImg {
+    margin-right: 27px;
+}
+
+.countryName {
+    width: 80px;
+}
+
+.countryName h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #13615F;
+}
+
+.numberCase {
+    font-size: 19px;
+    font-weight: 500;
+    color: #035755;
+    width: 60px;
+    margin-left: 83px;
+    text-align: right;
+    margin-right: 21px;
+}
+
+
+
+
