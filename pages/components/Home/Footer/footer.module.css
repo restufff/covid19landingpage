@@ -1,0 +1,31 @@
+.menuContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.menuWrapper p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #415E56;
+    margin-bottom: 26px;
+}
+
+.logoFooter {
+    margin-right: 85px;
+}
+
+.footerPath {
+    margin: auto;
+}
+
+.footerPath > a {
+    margin-right: 50px;
+    color: #00402E;
+    font-weight: 500;
+}
+
+.socialmediaWrapper > img {
+    margin-right: 39px;
+}

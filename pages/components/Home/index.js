@@ -6,6 +6,8 @@ import Contaigon from "./Contaigon";
 import Symptomps from "./Symptomps";
 import Prevention from "./Prevention";
 import Map from "./Map";
+import Help from "./Help";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -27,6 +29,8 @@ const Home = () => {
       <div className={styles.footerContainer}>
         <div className="wrapper">
         <Map />
+        <Help />
+        <Footer />
       </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ const Menu = () => {
                 <img src = {Logo} alt = "Logo" />
             </div>
             <div className = {styles.pathList}>
-                {menuList.map((obj) => <a href = {obj.url}>{obj.label}</a>)}
+                {menuList.map((obj, index) => <a key={index} href = {obj.url}>{obj.label}</a>)}
             </div>
             <div className = {styles.actionContainer}>
                 <a className = {styles.contactButton}>
