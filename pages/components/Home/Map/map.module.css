@@ -65,8 +65,14 @@
 }
 
 .wrappingPaging {
-    padding: 14px 14px;
+    display: flex;
+    padding: 14px;
     
+}
+
+.loading{
+    margin-left: 110px;
+    margin-top: 100px;
 }
 
 .containerPaging {
@@ -74,16 +80,18 @@
     box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
     border-radius: 6px;
     width: 83px;
-    height: 45px;
+    height: 53px;
     background-color: #fff;
 }
 
 .containerPaging .left{
     padding-right: 15px;
+    padding-top: 3px;
     border-right: solid 2.5px #DEE1ED;
 }
 
 .containerPaging .right {
+    padding-top: 3px;
     padding-left: 15px;
 }
 
@@ -96,6 +104,8 @@
 
 .countryImg {
     margin-right: 27px;
+    width: 49px;
+    height: 35px;
 }
 
 .countryName {
