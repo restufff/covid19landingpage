@@ -29,7 +29,6 @@
 .preventionContainer:nth-child(odd) .preventionContent {
     display: flex;
     flex-direction: row-reverse;
-    background-color: aquamarine;
 }
 
 .preventionContainer:nth-child(odd) .preventionImg {
