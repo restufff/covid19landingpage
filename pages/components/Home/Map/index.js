@@ -13,6 +13,7 @@ import Api from "api/countryApi";
 import ReactLoading from "react-loading";
 import upCase from "@public/up.png";
 import downCase from "@public/down.png";
+import gapLine from "@public//gapLine.png";
 
 // import iran from "@public/iran.png";
 // import germany from "@public/germany.png";
@@ -120,6 +121,9 @@ function Map() {
             <div className={styles.wrappingPaging}>
               <div onClick={handleClickPrev} className={styles.left}>
                 <img src={previousPage}></img>
+              </div>
+              <div className={styles.gapLine}>
+                <img src={gapLine} />
               </div>
               <div onClick={handleClickNext} className={styles.right}>
                 <img src={nextPage}></img>
