@@ -1,5 +1,5 @@
 import imgSymptomps from "@public/girlImg.png";
-import styles from "./Symptomps.module.css";
+import styles from "./symptomps.module.css";
 
 const Symptomps = () => {
   return (
