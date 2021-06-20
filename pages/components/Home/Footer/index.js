@@ -22,15 +22,9 @@ const footerList = [
     label: "Treatment",
     url: "/testimonials",
   },
-]
+];
 
-const socialMedia = [
-    fb,
-    yt,
-    vine,
-    twt,
-]
-
+const socialMedia = [fb, yt, vine, twt];
 
 const Footer = () => {
   return (
@@ -47,7 +41,9 @@ const Footer = () => {
           ))}
         </div>
         <div className={styles.socialmediaWrapper}>
-        {socialMedia.map(obj => <img src={obj} /> )}
+          {socialMedia.map((obj, index) => (
+            <img key={index} src={obj} />
+          ))}
         </div>
       </div>
       <p>2020 @ All rights reserved by pixelspark.co</p>
